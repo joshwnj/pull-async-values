@@ -2,6 +2,9 @@
 
 A thin wrapper around [`pull.values`](https://github.com/dominictarr/pull-stream/blob/master/docs/sources.md#values-array--object), where you want to source a [pull-stream](https://github.com/dominictarr/pull-stream) with values from an async function.
 
+Example usage
+----
+
 ```
 var pull = require('pull-stream')
 var fs = require('fs')
@@ -16,6 +19,8 @@ pull(
   })
 )
 ```
+
+You can also take a look at the [examples](./examples)
 
 License
 ----
