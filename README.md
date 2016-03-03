@@ -5,7 +5,7 @@ A thin wrapper around [`pull.values`](https://github.com/dominictarr/pull-stream
 Example usage
 ----
 
-```
+```js
 var pull = require('pull-stream')
 var fs = require('fs')
 var asyncValues = require('pull-async-values')

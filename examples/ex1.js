@@ -7,6 +7,7 @@ pull(
   asyncValues(fs.readdir.bind(fs, __dirname)),
   pull.filter(function (filename) { return filename !== 'node_modules' }),
   pull.collect(function (err, array) {
+    if (err) { return console.error(err) }
     console.log(array)
   })
 )
