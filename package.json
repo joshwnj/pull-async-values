@@ -1,6 +1,6 @@
 {
   "name": "pull-async-values",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Source a pull-stream with values from an async function",
   "main": "index.js",
   "scripts": {
