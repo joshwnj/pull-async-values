@@ -1,6 +1,6 @@
 # pull-async-values
 
-A thin wrapper around `pull.values`, where the values you want to source the pull-stream with come from an async function.
+A thin wrapper around [`pull.values`](https://github.com/dominictarr/pull-stream/blob/master/docs/sources.md#values-array--object), where you want to source a [pull-stream](https://github.com/dominictarr/pull-stream) with values from an async function.
 
 ```
 var pull = require('pull-stream')
@@ -17,3 +17,7 @@ pull(
 )
 ```
 
+License
+----
+
+MIT
