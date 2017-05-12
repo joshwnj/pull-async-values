@@ -1,11 +1,11 @@
 /**
- * Based on pull.values: https://github.com/dominictarr/pull-stream/blob/master/sources.js#L26
+ * Based on pull.values: https://github.com/pull-stream/pull-stream/blob/master/sources/values.js
  */
 function sendValues (values) {
   var i = 0
   return function (err, cb) {
     if (err) { return cb(err) }
-    if (i >= values.length) { return cb(true) }
+    if (i >= values.length) { return cb(true) } // eslint-disable-line standard/no-callback-literal
     return cb(null, values[i++])
   }
 }

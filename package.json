@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/joshwnj/pull-async-values",
   "devDependencies": {
-    "standard": "^6.0.7"
+    "standard": "^10.0.2"
   }
 }
